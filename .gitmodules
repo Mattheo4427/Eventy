@@ -4,3 +4,7 @@
 [submodule "Eventy-back"]
 	path = Eventy-back
 	url = git@github.com:Mattheo4427/Eventy-back.git
+[submodule "front"]
+	branch = main
+[submodule "back"]
+	branch = main
