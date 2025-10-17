@@ -15,7 +15,7 @@ jobs:
 
       - name: Clone Eventy
         run: |
-          git clone https://x-access-token:${{ secrets.MAIN_REPO_TOKEN }}@github.com/${{ secrets.MAIN_REPO_OWNER }}/Eventy.git
+          git clone https://x-access-token:${{ secrets.MAIN_REPO_TOKEN }}@github.com/Mattheo4427/Eventy.git
           cd Eventy
           git checkout main
           git submodule sync
