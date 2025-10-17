@@ -1,9 +1,9 @@
 [submodule "Eventy-front"]
 	path = Eventy-front
-	url = git@github.com:Mattheo4427/Eventy-front.git
+    url = https://github.com/Mattheo4427/Eventy-front.git
 [submodule "Eventy-back"]
 	path = Eventy-back
-	url = git@github.com:Mattheo4427/Eventy-back.git
+    url = https://github.com/Mattheo4427/Eventy-back.git
 [submodule "front"]
 	branch = main
 [submodule "back"]
