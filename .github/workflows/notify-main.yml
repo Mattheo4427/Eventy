@@ -24,7 +24,7 @@ jobs:
       - name: Commit submodule updates
         run: |
           cd Eventy
-          git add front back
+          git add Eventy-front Eventy-back
           git diff-index --quiet HEAD || git commit -m "chore: update submodules after submodule push [skip ci]"
 
       - name: Push changes
